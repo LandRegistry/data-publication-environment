@@ -1,0 +1,7 @@
+apps/
+.vagrant
+.idea/
+logs/
+script/bin/.coverage
+.DS_Store
+.python-version
