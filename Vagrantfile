@@ -14,4 +14,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :shell, :path => 'scripts/provision.sh'
 
   config.vm.network :forwarded_port, host: 5000, guest: 5000
+  config.vm.network :forwarded_port, host: 5001, guest: 5001
 end
