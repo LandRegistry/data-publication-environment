@@ -30,6 +30,9 @@ pip install virtualenvwrapper
 echo "Installing killall command tool"
 yum install -y psmisc
 
+echo "Install util to allow updating of VM server time"
+yum install ntp
+
 echo "Configuring user environment"
 WORKON_HOME=/home/vagrant/venvs
 bash_profile=/home/vagrant/.bash_profile
