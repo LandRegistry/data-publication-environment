@@ -1,0 +1,19 @@
+---
+
+  applications:
+
+    data-publication-frontend:
+      repo: git@github.com:LandRegistry/data-publication-frontend.git
+      branch: master
+      port: 5000
+      entrypoint: application:app
+      apptype: wsgi
+      vars:
+
+    data-publication-backend:
+      repo: git@github.com:LandRegistry/data-publication-backend.git
+      branch: master
+      port: 5001
+      entrypoint: application:app
+      apptype: wsgi
+      vars:
